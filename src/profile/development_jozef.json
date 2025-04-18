@@ -1,0 +1,13 @@
+{
+    "DEBUG": true,
+    "TESTING": true,
+    "ENV": "development",
+    "CSRF_ENABLED": true,
+    "basedir": "/Users/jozefkalaj/projects/Immican-app/backend",
+    "fileUploadPath": "/Users/jozefkalaj/projects/Immican-app/backend/src/fileUploadDirectory",
+    "PROPAGATE_EXCEPTIONS": true,
+    "SQLALCHEMY_ECHO": false,
+    "SQLALCHEMY_TRACK_MODIFICATIONS": false,
+    "SQLALCHEMY_POOL_SIZE": 15,
+    "SQLALCHEMY_DATABASE_URI": "postgresql://postgres:postgres@localhost:5432/immican"
+} 
