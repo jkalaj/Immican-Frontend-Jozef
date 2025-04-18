@@ -1,0 +1,60 @@
+{
+  "ConsumerJourney": {
+    "Visitor": {
+      "options": ["Digital Nomad Visa", "E-travel Visa"]
+    },
+    "Prospective Immigrant": {
+      "paths": {
+        "Study": {
+          "options": ["Work Permit Open", "Spouse/Family"]
+        },
+        "Startup Visa": {
+          "requires": ["LMIA"]
+        },
+        "Foreign Investor": {},
+        "Work Permit Open": {},
+        "Work Permit Closed": {},
+        "Equitable Employment": {
+          "leadsTo": ["Under Employed", "Unemployed"]
+        },
+        "Under Employed": {},
+        "Unemployed": {},
+        "Rental": {
+          "leadsTo": ["Homeownership"]
+        }
+      }
+    },
+    "Marriage Certificate": {
+      "leadsTo": ["Prospective Immigrant"]
+    },
+    "Asylum/Refugee": {
+      "leadsTo": ["Temporary Resident"]
+    },
+    "Temporary Resident": {
+      "paths": [
+        "Express Entry",
+        "Nomination Provincial",
+        "Nomination Atlantic",
+        "Nomination Rural Community"
+      ]
+    },
+    "Permanent Residency": {
+      "options": [
+        "Study",
+        "Under Employed",
+        "Unemployed",
+        "Equitable Employment",
+        "Homeownership"
+      ]
+    },
+    "Citizenship": {
+      "options": [
+        "Homeownership",
+        {
+          "Retail Investment": {}
+        }
+      ]
+    },
+    "Retiree (65+)": {}
+  }
+} 

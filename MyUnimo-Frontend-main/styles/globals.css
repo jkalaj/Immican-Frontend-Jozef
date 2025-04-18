@@ -1,0 +1,257 @@
+html,
+body {
+  min-height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+code[class*='language-'] {
+  padding: 0;
+}
+p{
+  font-size: 13px!important;
+  font-family: "Open Sans", sans-serif!important;
+}
+
+h5{
+  font-size: 18px!important;
+  font-weight: 600!important;
+  font-family: "Poppins", sans-serif!important;
+}
+
+.nav-link > a {
+  width: 100%;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Phone input box */
+.PhoneBox > .PhoneInputCountry{
+  border: 1px solid #ccc;
+  padding: 6px;
+  margin-right: 0;
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+}
+.PhoneBox > input{
+  height: 55px;
+  color: black;
+  background: transparent;
+  border-radius: 0 5px 5px 0;
+  border: 1.8px solid #ccc;
+  padding-left: 12px;
+  font-size: 17px;
+  border-left: 0;
+  outline: none;
+}
+.PhoneInputCountrySelect{
+  background: white;
+  color: black;
+}
+
+/* Error input box */
+.errorBox > input{
+  outline: 1px solid #d32f2f!important;
+}
+
+.errorBox > input::placeholder {
+  color: #d32f2f!important;
+}
+
+.alertBox{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border-radius: 4px;
+  width: 25%!important;
+}
+
+/* password error message */
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  color: #ef5359;
+  padding: 0 0 0 18px;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+.inputHeight > div > input{
+  height: 18px;
+}
+.inputHeight{
+  margin-top: 0;
+}
+.paddingLevel{
+  padding-top: 10px;
+}
+
+/* Profile Picture Image */
+
+.avatar-upload {
+  position: relative;
+}
+
+.avatar-upload > .avatar-edit {
+  position: absolute;
+  left: -14px;
+  z-index: 1;
+  top: 8px;
+}
+.avatar-upload > .avatar-edit > input {
+  display: none;
+}
+.avatar-upload > .avatar-edit > label {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: normal;
+  transition: all .2s ease-in-out;
+}
+.avatar-upload > .avatar-edit > label:hover {
+  background: #f1f1f1;
+  border-color: #d6d6d6;
+}
+.avatar-upload > .avatar-edit > label:after {
+  content: "\f040";
+  font-family: 'FontAwesome';
+  color: #757575;
+  position: absolute;
+  top: 6px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+.avatar-upload > .avatar-preview {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  border: 6px solid #F8F8F8;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.avatar-upload > .avatar-preview > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.avatar-upload > .avatar-preview > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.levelDesign{
+  font-weight: 600;
+}
+
+.descriptionDesign > p > img {
+  width: 100%!important;
+}
+
+.disableColor{
+  background: #f7f7f726;
+}
+
+.titleDesign{
+  font-weight: 400!important;
+  font-size: 16px!important;
+  font-family: "Open Sans", sans-serif!important;
+}
+.paddingTop{
+  padding-top: 6px!important;
+}
+.requestTypeDesign{
+  margin: 0;
+  padding: 18px;
+  font-size: 14px!important;
+  font-weight: 600;
+}
+.colorPlattePadding{
+  background: #ff810047!important;
+  border: 1px solid #ff8100!important;
+  color: #ff8100!important;
+}
+.colorPlatteAccept{
+  background: #57e57647!important;
+  border: 1px solid #45ad1a!important;
+  color: #009707!important;
+}
+.colorPlatteDecline{
+  background: #ff000047!important;
+  border: 1px solid #ff0505!important;
+  color: #ff0000!important;
+}
+.customerStatusDesign{
+  margin: 0;
+  font-size: 14px!important;
+  border-radius: 20px;
+  text-align: center;
+  padding: 4px;
+  font-weight: 600;
+}
+.arrowBorder{
+  margin: 0;
+  border: 1px solid #004fdf;
+  height: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.captchaDesign{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stepsDesign > div > input{
+  padding: 8px;
+  background: white;
+}
+@media only screen and (max-width: 960px) {
+  .paddingTopNone{
+    padding-top: 0!important;
+  }
+  .alertBox{
+    width: 90%!important;
+  }
+}
+

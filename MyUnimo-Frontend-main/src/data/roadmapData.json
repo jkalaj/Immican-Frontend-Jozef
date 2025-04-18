@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Initial Assessment",
+    "status": "completed",
+    "description": "Complete an initial assessment to determine eligibility for immigration programs.",
+    "subtasks": [
+      {
+        "title": "Create Profile",
+        "status": "completed",
+        "description": "Set up your account and complete your profile details."
+      },
+      {
+        "title": "Basic Eligibility Check",
+        "status": "completed",
+        "description": "System evaluation of your basic eligibility criteria."
+      },
+      {
+        "title": "Preliminary Score Calculation",
+        "status": "completed",
+        "description": "Initial scoring based on your profile information."
+      }
+    ]
+  },
+  {
+    "title": "Document Preparation",
+    "status": "in-progress",
+    "description": "Gather and prepare all required documentation for your application.",
+    "subtasks": [
+      {
+        "title": "Identity Documents",
+        "status": "completed",
+        "description": "Passport, birth certificate, national ID."
+      },
+      {
+        "title": "Educational Credentials",
+        "status": "in-progress",
+        "description": "Degrees, diplomas, transcripts, and educational assessments."
+      },
+      {
+        "title": "Work Experience Proof",
+        "status": "not-started",
+        "description": "Employment letters, contracts, and references."
+      },
+      {
+        "title": "Language Proficiency Tests",
+        "status": "not-started",
+        "description": "IELTS, TOEFL, or other approved language tests."
+      }
+    ]
+  },
+  {
+    "title": "Application Submission",
+    "status": "not-started",
+    "description": "Submit your application to immigration authorities.",
+    "subtasks": [
+      {
+        "title": "Application Form Completion",
+        "status": "not-started",
+        "description": "Fill out all required application forms."
+      },
+      {
+        "title": "Fee Payment",
+        "status": "not-started",
+        "description": "Pay required application and processing fees."
+      },
+      {
+        "title": "Submission Confirmation",
+        "status": "not-started",
+        "description": "Receive confirmation of your submitted application."
+      }
+    ]
+  },
+  {
+    "title": "Application Processing",
+    "status": "not-started",
+    "description": "Your application is processed by immigration authorities.",
+    "subtasks": [
+      {
+        "title": "Initial Review",
+        "status": "not-started",
+        "description": "Basic completeness check of your application."
+      },
+      {
+        "title": "Detailed Assessment",
+        "status": "not-started",
+        "description": "Thorough evaluation of your qualifications and eligibility."
+      },
+      {
+        "title": "Background Checks",
+        "status": "not-started",
+        "description": "Security and background verification."
+      },
+      {
+        "title": "Medical Examination",
+        "status": "not-started",
+        "description": "Complete required medical examinations."
+      },
+      {
+        "title": "Interview (if required)",
+        "status": "not-started",
+        "description": "Attend an interview with immigration officials if requested."
+      }
+    ]
+  },
+  {
+    "title": "Decision and Next Steps",
+    "status": "not-started",
+    "description": "Receive a decision on your application and proceed with next steps.",
+    "subtasks": [
+      {
+        "title": "Application Decision",
+        "status": "not-started",
+        "description": "Receive approval, rejection, or request for additional information."
+      },
+      {
+        "title": "Visa/Permit Issuance",
+        "status": "not-started",
+        "description": "If approved, receive your visa or resident permit."
+      },
+      {
+        "title": "Pre-Arrival Preparation",
+        "status": "not-started",
+        "description": "Prepare for travel and arrival in your destination country."
+      },
+      {
+        "title": "Post-Arrival Settlement",
+        "status": "not-started",
+        "description": "Complete required registration and settlement procedures after arrival."
+      }
+    ]
+  }
+] 

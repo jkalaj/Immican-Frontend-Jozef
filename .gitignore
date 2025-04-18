@@ -1,5 +1,3 @@
 node_modules/
-.DS_Store
-venv/
-backend/venv/
-MyUnimo-Frontend-main/
+
+MyUnimo-Frontend-main/node_modules/
